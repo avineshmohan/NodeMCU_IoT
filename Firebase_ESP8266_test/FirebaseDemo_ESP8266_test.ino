@@ -2,10 +2,10 @@
 #include <FirebaseArduino.h>
 
 // Set these to run example.
-#define FIREBASE_HOST "iottest-168d4.firebaseio.com"
-#define FIREBASE_AUTH "l7n1nyvFUg4Cd4mw3IF1Bth0CkEsbrbMoqYXy9x3"
-#define WIFI_SSID "BOLT"
-#define WIFI_PASSWORD "FORGE958"
+#define FIREBASE_HOST "db_url"
+#define FIREBASE_AUTH "db_secret"
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "PWD"
 
 void setup() {
   Serial.begin(115200);
